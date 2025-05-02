@@ -37,63 +37,63 @@
         operationalCards: [
           {
             title: 'Monitoramento da Produção',
-            image: './src/assets/img/sigra/Monitoramento da Produção.png',
+            image: '/sigra/Monitoramento da Produção.png',
             description: 'Maximização da eficiência produtiva através de análise de processos e implementação de melhorias contínuas.',
             tags: ['Eficiência', 'Produção', 'Monitoramento'],
             link: '/monitoramento-producao'
           },
           {
             title: 'Coleta e Análise de Dados',
-            image: './src/assets/img/sigra/Coleta e Análise de Dados.png',
+              image: '/sigra/Coleta e Análise de Dados.png',
             description: 'Estratégias avançadas de manutenção preventiva e preditiva para maximizar a vida útil dos equipamentos.',
             tags: ['Análise de Dados', 'Manutenção', 'Gestão de Ativos'],
             link: '/coleta-analise-dados'
           },
           {
             title: 'Modelagem e Simulação de Reservatórios',
-            image: './src/assets/img/sigra/Modelagem e Simulação de Reservatórios.jpg',
+            image: '/sigra/Modelagem e Simulação de Reservatórios.jpg',
             description: 'Soluções para redução do consumo energético e implementação de práticas sustentáveis.',
             tags: ['Modelagem', 'Simulação', 'Sustentabilidade'],
             link: '/modelagem-simulacao'
           },
           {
             title: 'Análise de Integridade dos Poços',
-            image: './src/assets/img/sigra/Análise de Integridade dos Poços.png',
+            image: '/sigra/Análise de Integridade dos Poços.png',
             description: 'Gestão integrada da cadeia de suprimentos e logística para redução de custos e maior eficiência.',
             tags: ['Integridade', 'Logística', 'Eficiência'],
             link: '/analise-integridade'
           },
           {
             title: 'Gestão de Dados e Tomada de Decisão',
-            image: './src/assets/img/sigra/Gestão de Dados e Tomada de Decisão.jpg',
+            image: '/sigra/Gestão de Dados e Tomada de Decisão.jpg',
             description: 'Implementação de tecnologias Industry 4.0 e soluções de automação para processos mais eficientes.',
             tags: ['Dados', 'Decisão', 'Indústria 4.0'],
             link: '/gestao-dados'
           },
           {
             title: 'Segurança e Conformidade',
-            image: './src/assets/img/sigra/Segurança e Conformidade Regulatória.png',
+            image: '/sigra/Segurança e Conformidade Regulatória.png',
             description: 'Gestão de segurança operacional e adequação às normas regulatórias do setor.',
             tags: ['Segurança', 'Compliance', 'Regulamentação'],
             link: '/seguranca-conformidade'
           },
           {
             title: 'Monitoramento de Injeção de Água e Gás',
-            image: './src/assets/img/sigra/Monitoramento de Injeção de Água e Gás.jpg',
+            image: '/sigra/Monitoramento de Injeção de Água e Gás.jpg',
             description: 'Avaliação contínua da eficiência de injeção de água e gás para otimização de produção.',
             tags: ['Injeção', 'Água', 'Gás'],
             link: '/monitoramento-injecao'
           },
           {
             title: 'Análise de Declínio',
-            image: './src/assets/img/sigra/Análise de Declínio e Recuperação.png',
+            image: '/sigra/Análise de Declínio e Recuperação.png',
             description: 'Estudo de tendências de declínio de produção para previsão e planejamento.',
             tags: ['Declínio', 'Produção', 'Análise'],
             link: '/analise-declinio'
           },
           {
             title: 'Monitoramento Sísmico 4D',
-            image: './src/assets/img/sigra/Monitoramento Sísmico 4D.webp',
+            image: '/sigra/Monitoramento Sísmico 4D.webp',
             description: 'Monitoramento em tempo real de atividades sísmicas para segurança e eficiência.',
             tags: ['Sísmico', '4D', 'Monitoramento'],
             link: '/monitoramento-sismico'

@@ -35,37 +35,37 @@
         operationalCards: [
           {
             title: 'Otimização de Produção',
-            image: './src/assets/img/sigra/Otimização de Produção 2.jpg',
+            image: '/sigra/Otimização de Produção 2.jpg',
             description: 'Maximização da eficiência produtiva através de análise de processos e implementação de melhorias contínuas.',
             tags: ['Lean Manufacturing', 'Processos']
           },
           {
             title: 'Gestão de Ativos e Manutenção',
-            image: './src/assets/img/sigra/Gestão de Ativos e Manutenção.jpg',
+            image: '/sigra/Gestão de Ativos e Manutenção.jpg',
             description: 'Estratégias avançadas de manutenção preventiva e preditiva para maximizar a vida útil dos equipamentos.',
             tags: ['Manutenção', 'Gestão de Ativos']
           },
           {
             title: 'Eficiência Energética',
-            image: './src/assets/img/sigra/Eficiência Energética.jpg',
+            image: '/sigra/Eficiência Energética.jpg',
             description: 'Soluções para redução do consumo energético e implementação de práticas sustentáveis.',
             tags: ['Energia', 'Sustentabilidade']
           },
           {
             title: 'Otimização de Supply Chain',
-              image: './src/assets/img/sigra/Otimização de Supply Chain.png',
+              image: '/sigra/Otimização de Supply Chain.png',
             description: 'Gestão integrada da cadeia de suprimentos e logística para redução de custos e maior eficiência.',
             tags: ['Logística', 'Supply Chain']
           },
           {
             title: 'Digitalização e Automação',
-            image: './src/assets/img/sigra/Digitalização e Automação.png',
+            image: '/sigra/Digitalização e Automação.png',
             description: 'Implementação de tecnologias Industry 4.0 e soluções de automação para processos mais eficientes.',
             tags: ['Automação', 'Indústria 4.0']
           },
           {
             title: 'Segurança e Conformidade',
-            image: './src/assets/img/sigra/Segurança e Conformidade.jpg',
+            image: '/sigra/Segurança e Conformidade.jpg',
             description: 'Gestão de segurança operacional e adequação às normas regulatórias do setor.',
             tags: ['Segurança', 'Compliance']
           },

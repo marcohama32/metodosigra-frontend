@@ -37,49 +37,49 @@
         sustainabilityCards: [
           {
             title: 'Escopo do Projeto',
-            image: './src/assets/img/sigra/Escopo do projeto.jpg',
+            image: '/sigra/Escopo do projeto.jpg',
             description: 'Definição e gerenciamento do escopo do projeto para garantir alinhamento com objetivos sustentáveis.',
             tags: ['Planejamento', 'Gestão', 'Escopo'],
             link: '/project-scope'
           },
           {
             title: 'Impacto nos Stakeholders',
-            image: './src/assets/img/sigra/Impacto nos Stakeholders.png',
+            image: '/sigra/Impacto nos Stakeholders.png',
             description: 'Avaliação e mensuração do impacto das iniciativas nos diferentes grupos de interesse.',
             tags: ['Stakeholders', 'Impacto', 'Análise'],
             link: '/stakeholder-impact'
           },
           {
             title: 'Análise Detalhada de Stakeholders',
-            image: './src/assets/img/sigra/Análise Detalhada de Stakeholders.png',
+            image: '/sigra/Análise Detalhada de Stakeholders.png',
             description: 'Mapeamento e análise aprofundada dos diferentes grupos de interesse e suas necessidades.',
             tags: ['Análise', 'Stakeholders', 'Mapeamento'],
             link: '/detailed-analysis'
           },
           {
             title: 'Stakeholders para Engajamento',
-            image: './src/assets/img/sigra/Stakeholders para Engajamento.jpg',
+            image: '/sigra/Stakeholders para Engajamento.jpg',
             description: 'Identificação e priorização de stakeholders-chave para ações de engajamento direcionado.',
             tags: ['Engajamento', 'Priorização', 'Stakeholders'],
             link: '/targeted-engagement'
           },
           {
             title: 'Estratégia de Comunicação',
-            image: './src/assets/img/sigra/Estratégia de Comunicação.jpg',
+            image: '/sigra/Estratégia de Comunicação.jpg',
             description: 'Desenvolvimento e implementação de estratégias efetivas de comunicação com stakeholders.',
             tags: ['Comunicação', 'Estratégia', 'Gestão'],
             link: '/communication-strategy'
           },
           {
             title: 'Atividades de Engajamento',
-            image: './src/assets/img/sigra/Atividades de Engajamento.png',
+            image: '/sigra/Atividades de Engajamento.png',
             description: 'Planejamento e execução de atividades para promover o engajamento dos stakeholders.',
             tags: ['Engajamento', 'Atividades', 'Participação'],
             link: '/engagement-activities'
           },
           {
             title: 'Integração de Feedback',
-            image: './src/assets/img/sigra/Integração de Feedback.jpg',
+            image: '/sigra/Integração de Feedback.jpg',
             description: 'Processo de coleta, análise e integração de feedback dos stakeholders no projeto.',
             tags: ['Feedback', 'Integração', 'Melhoria'],
             link: '/feedback-integration'

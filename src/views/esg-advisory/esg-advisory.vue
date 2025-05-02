@@ -37,49 +37,49 @@ export default {
       esgCards: [
         {
           title: 'Diagnóstico ESG',
-          image: './src/assets/img/sigra/Diagnóstico ESG.png',
+          image: '/sigra/Diagnóstico ESG.png',
           description: 'Análise completa da maturidade ESG e identificação de oportunidades.',
           tags: ['Diagnóstico', 'Benchmark']
         },
         {
           title: 'Governança',
-          image: './src/assets/img/sigra/Governança.png',
+          image: '/sigra/Governança.png',
           description: 'Estruturação de políticas e comitês ESG.',
           tags: ['Governança', 'Compliance']
         },
         {
           title: 'Relatórios ESG',
-          image: './src/assets/img/sigra/Relatórios ESG.webp',
+          image: '/sigra/Relatórios ESG.webp',
           description: 'Relatórios alinhados aos frameworks GRI, SASB e TCFD.',
           tags: ['Reporting', 'GRI']
         },
         {
           title: 'Gestão Climática',
-          image: './src/assets/img/sigra/Gestão Climática.jpg',
+          image: '/sigra/Gestão Climática.jpg',
           description: 'Inventário GEE e estratégias de descarbonização.',
           tags: ['Clima', 'Net Zero']
         },
         {
           title: 'Stakeholders',
-          image: './src/assets/img/sigra/Stakeholders.jpg',
+          image: '/sigra/Stakeholders.jpg',
           description: 'Mapeamento e engajamento de stakeholders.',
           tags: ['Engajamento', 'Comunicação']
         },
         {
           title: 'Finanças ESG',
-          image: './src/assets/img/sigra/Finanças ESG.webp',
+          image: '/sigra/Finanças ESG.webp',
           description: 'Assessoria em green bonds e produtos sustentáveis.',
           tags: ['Finanças', 'Green Bonds']
         },
         {
           title: 'Biodiversidade',
-          image: './src/assets/img/sigra/Biodiversidade.jpg',
+          image: '/sigra/Biodiversidade.jpg',
           description: 'Gestão de impactos na biodiversidade e capital natural.',
           tags: ['Biodiversidade', 'Natural']
         },
         {
           title: 'Cadeia de Valor',
-          image: './src/assets/img/sigra/Cadeia de Valor.png',
+          image: '/sigra/Cadeia de Valor.png',
           description: 'Gestão ESG na cadeia de fornecedores.',
           tags: ['Fornecedores', 'Supply Chain']
         },

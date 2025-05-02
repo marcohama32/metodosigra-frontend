@@ -37,42 +37,42 @@ export default {
       cyberRisksMenu: [
         {
           name: 'Avaliação de Vulnerabilidades',
-          icon: './src/assets/img/sigra/Avaliação de Vulnerabilidades.png',
+          icon: '/sigra/Avaliação de Vulnerabilidades.png',
           description: 'Identificação e análise de vulnerabilidades em sistemas e infraestrutura de TI.',
           link: '/cyber-risks/vulnerability-assessment',
           tags: ['Segurança', 'Vulnerabilidades', 'Análise']
         },
         {
           name: 'Gestão de Ameaças',
-          icon: './src/assets/img/sigra/Gestão de Ameaças.jpg',
+          icon: '/sigra/Gestão de Ameaças.jpg',
           description: 'Monitoramento e gestão de ameaças cibernéticas em tempo real.',
           link: '/cyber-risks/threat-management',
           tags: ['Ameaças', 'Monitoramento', 'Proteção']
         },
         {
           name: 'Conformidade e Regulamentações',
-          icon: './src/assets/img/sigra/Conformidade e Regulamentações.jpg',
+          icon: '/sigra/Conformidade e Regulamentações.jpg',
           description: 'Adequação às normas e regulamentações de segurança cibernética.',
           link: '/cyber-risks/compliance',
           tags: ['Compliance', 'LGPD', 'Normas']
         },
         {
           name: 'Resposta a Incidentes',
-          icon: './src/assets/img/sigra/Resposta a Incidentes.png',
+          icon: '/sigra/Resposta a Incidentes.png',
           description: 'Planos e procedimentos para resposta rápida a incidentes de segurança.',
           link: '/cyber-risks/incident-response',
           tags: ['Incidentes', 'Resposta', 'Contingência']
         },
         {
           name: 'Treinamento em Segurança',
-          icon: './src/assets/img/sigra/Treinamento em Segurança.jpg',
+          icon: '/sigra/Treinamento em Segurança.jpg',
           description: 'Capacitação de equipes em práticas de segurança cibernética.',
           link: '/cyber-risks/security-training',
           tags: ['Treinamento', 'Conscientização', 'Educação']
         },
         {
           name: 'Proteção de Dados',
-          icon: './src/assets/img/sigra/Proteção de Dados.png',
+          icon: '/sigra/Proteção de Dados.png',
           description: 'Estratégias e ferramentas para proteção de dados sensíveis.',
           link: '/cyber-risks/data-protection',
           tags: ['Dados', 'Privacidade', 'Segurança']

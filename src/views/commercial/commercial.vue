@@ -37,49 +37,49 @@ export default {
       commercialMenu: [
         {
           name: 'Planejamento Estratégico de Vendas',
-          icon: './src/assets/img/sigra/Planejamento Estratégico de Vendas.jpg',
+          icon: '/sigra/Planejamento Estratégico de Vendas.jpg',
           description: 'Desenvolvimento de estratégias e planos de ação para maximizar resultados comerciais.',
           link: '/commercial/strategic-planning',
           tags: ['Estratégia', 'Vendas', 'Planejamento']
         },
         {
           name: 'Desenvolvimento de Processos Comerciais',
-          icon: './src/assets/img/sigra/Desenvolvimento de Processos Comerciais.jpg',
+          icon: '/sigra/Desenvolvimento de Processos Comerciais.jpg',
           description: 'Estruturação e otimização de processos para maior eficiência comercial.',
           link: '/commercial/process-development',
           tags: ['Processos', 'Metodologia', 'Comercial']
         },
         {
           name: 'Treinamento e Capacitação de Equipes',
-          icon: './src/assets/img/sigra/Treinamento e Capacitação de Equipes.png',
+          icon: '/sigra/Treinamento e Capacitação de Equipes.png',
           description: 'Programas de desenvolvimento e capacitação para equipes comerciais.',
           link: '/commercial/team-training',
           tags: ['Treinamento', 'Capacitação', 'Equipe']
         },
         {
           name: 'Prospecção e Geração de Leads',
-          icon: './src/assets/img/sigra/Prospecção e Geração de Leads.png',
+          icon: '/sigra/Prospecção e Geração de Leads.png',
           description: 'Estratégias e ferramentas para identificação e captação de novos clientes.',
           link: '/commercial/lead-generation',
           tags: ['Leads', 'Prospecção', 'Marketing']
         },
         {
           name: 'Otimização do Relacionamento com Clientes',
-          icon: './src/assets/img/sigra/Otimização do Relacionamento com Clientes.png',
+          icon: '/sigra/Otimização do Relacionamento com Clientes.png',
           description: 'Gestão e aprimoramento do relacionamento com clientes para maior retenção.',
           link: '/commercial/customer-relationship',
           tags: ['CRM', 'Relacionamento', 'Clientes']
         },
         {
           name: 'Análise de Indicadores e Resultados',
-          icon: './src/assets/img/sigra/Análise de Indicadores e Resultados.png',
+          icon: '/sigra/Análise de Indicadores e Resultados.png',
           description: 'Monitoramento e análise de KPIs comerciais para tomada de decisão.',
           link: '/commercial/analytics',
           tags: ['KPIs', 'Análise', 'Resultados']
         },
         {
           name: 'Expansão e Crescimento do Negócio',
-          icon: './src/assets/img/sigra/Expansão e Crescimento do Negócio.png',
+          icon: '/sigra/Expansão e Crescimento do Negócio.png',
           description: 'Estratégias para expansão de mercado e crescimento sustentável.',
           link: '/commercial/business-growth',
           tags: ['Crescimento', 'Expansão', 'Negócios']
