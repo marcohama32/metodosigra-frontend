@@ -181,11 +181,50 @@ export default {
                     params,
                     headers: { 'token': localStorage.getItem('token') }
                 });
-                
-                this.productionData = response.data.data || [];
-                this.totalPages = response.data.pagination?.totalPages || 1;
-                this.itemsPerPage = response.data.pagination?.pageSize || 10;
-                this.currentPage = response.data.pagination?.currentPage || 1;
+                console.log("DEBUG response:", response);
+                console.log("DEBUG typeof response:", typeof response);
+                console.log("DEBUG response.data:", response.data);
+                console.log("DEBUG response.pagination:", response.pagination);
+
+                let allData;
+                if (Array.isArray(response.data)) {
+                    allData = [...response.data];
+                } else if (Array.isArray(response)) {
+                    allData = [...response];
+                } else {
+                    console.error("Formato inesperado da resposta:", response);
+                    throw new Error("Formato inesperado da resposta da API");
+                }
+
+                const totalPages = response.pagination?.totalPages || 1;
+                const totalRecords = response.pagination?.totalCount || 0;
+
+                if (totalPages > 1) {
+                    for (let page = 2; page <= totalPages; page++) {
+                        const nextResponse = await api.get("/get/decline-analyses", {
+                            params: { ...params, page },
+                            headers: { 'token': localStorage.getItem('token') }
+                        });
+                        console.log("DEBUG nextResponse:", nextResponse);
+                        console.log("DEBUG typeof nextResponse:", typeof nextResponse);
+                        console.log("DEBUG nextResponse.data:", nextResponse.data);
+                        console.log("DEBUG nextResponse.pagination:", nextResponse.pagination);
+
+                        if (Array.isArray(nextResponse.data)) {
+                            allData = [...allData, ...nextResponse.data];
+                        } else if (Array.isArray(nextResponse)) {
+                            allData = [...allData, ...nextResponse];
+                        } else {
+                            console.error("Formato inesperado da resposta na paginação:", nextResponse);
+                            throw new Error("Formato inesperado da resposta da API na paginação");
+                        }
+                    }
+                }
+
+                this.productionData = allData;
+                this.totalPages = totalPages;
+                this.itemsPerPage = response.pagination?.pageSize || 10;
+                this.currentPage = response.pagination?.currentPage || 1;
             } catch (err) {
                 this.error = "Erro ao carregar os dados. Tente novamente.";
             } finally {

@@ -273,9 +273,9 @@
                     headers: { 'token': localStorage.getItem('token') }
                 });
   
-                let allData = [...response.data.data];
-                const totalPages = response.data.pagination.totalPages;
-                const totalRecords = response.data.pagination.totalCount;
+                let allData = [...response.data];
+                const totalPages = response.pagination.totalPages;
+                const totalRecords = response.pagination.totalCount;
   
                 // Se houver mais páginas, buscar as demais
                 if (totalPages > 1) {
@@ -284,7 +284,7 @@
                             params: { ...params, page },
                             headers: { 'token': localStorage.getItem('token') }
                         });
-                        allData = [...allData, ...nextResponse.data.data];
+                        allData = [...allData, ...nextResponse.data];
                     }
                 }
   
