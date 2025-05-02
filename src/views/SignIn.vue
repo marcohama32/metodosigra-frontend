@@ -8,7 +8,7 @@
             <div class="mx-auto col-xl-4 col-lg-5 col-md-6 d-flex flex-column">
               <div class="mt-8 card card-plain">
                 <div class="pb-0 card-header text-start">
-                  <h3 class="font-weight-bolder text-info text-gradient">Bem-vindo ao WaterFlow</h3>
+                  <h3 class="font-weight-bolder text-info text-gradient">Bem-vindo</h3>
                   <p class="mb-0">Digite seu usuário e senha para entrar</p>
                 </div>
                 <div class="card-body">
