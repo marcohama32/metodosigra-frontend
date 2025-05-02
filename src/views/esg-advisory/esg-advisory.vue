@@ -7,7 +7,7 @@
         <div v-for="(card, index) in esgCards" 
              :key="index" 
              class="col-12 col-sm-6 col-lg-4">
-          <router-link :to="card.link" class="text-decoration-none">
+          <router-link v-if="card.link" :to="card.link" class="text-decoration-none">
             <div class="card h-100">
               <img class="card-img-top" :src="card.image" :alt="card.title">
               <div class="card-body">
@@ -23,6 +23,20 @@
               </div>
             </div>
           </router-link>
+          <div v-else class="card h-100">
+            <img class="card-img-top" :src="card.image" :alt="card.title">
+            <div class="card-body">
+              <h5 class="card-title">{{ card.title }}</h5>
+              <p class="card-text">{{ card.description }}</p>
+              <div class="mb-3">
+                <span v-for="(tag, tagIndex) in card.tags" 
+                      :key="tagIndex"
+                      class="badge bg-success me-1">
+                  {{ tag }}
+                </span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -39,49 +53,57 @@ export default {
           title: 'Diagnóstico ESG',
           image: '/sigra/Diagnóstico ESG.png',
           description: 'Análise completa da maturidade ESG e identificação de oportunidades.',
-          tags: ['Diagnóstico', 'Benchmark']
+          tags: ['Diagnóstico', 'Benchmark'],
+          link: '/esg-advisory/diagnostico'
         },
         {
           title: 'Governança',
           image: '/sigra/Governança.png',
           description: 'Estruturação de políticas e comitês ESG.',
-          tags: ['Governança', 'Compliance']
+          tags: ['Governança', 'Compliance'],
+          link: '/esg-advisory/governanca'
         },
         {
           title: 'Relatórios ESG',
           image: '/sigra/Relatórios ESG.webp',
           description: 'Relatórios alinhados aos frameworks GRI, SASB e TCFD.',
-          tags: ['Reporting', 'GRI']
+          tags: ['Reporting', 'GRI'],
+          link: '/esg-advisory/relatorios'
         },
         {
           title: 'Gestão Climática',
           image: '/sigra/Gestão Climática.jpg',
           description: 'Inventário GEE e estratégias de descarbonização.',
-          tags: ['Clima', 'Net Zero']
+          tags: ['Clima', 'Net Zero'],
+          link: '/esg-advisory/gestao-climatica'
         },
         {
           title: 'Stakeholders',
           image: '/sigra/Stakeholders.jpg',
           description: 'Mapeamento e engajamento de stakeholders.',
-          tags: ['Engajamento', 'Comunicação']
+          tags: ['Engajamento', 'Comunicação'],
+          link: '/esg-advisory/stakeholders'
         },
         {
           title: 'Finanças ESG',
           image: '/sigra/Finanças ESG.webp',
           description: 'Assessoria em green bonds e produtos sustentáveis.',
-          tags: ['Finanças', 'Green Bonds']
+          tags: ['Finanças', 'Green Bonds'],
+          link: '/esg-advisory/financas'
         },
         {
           title: 'Biodiversidade',
           image: '/sigra/Biodiversidade.jpg',
           description: 'Gestão de impactos na biodiversidade e capital natural.',
-          tags: ['Biodiversidade', 'Natural']
+          tags: ['Biodiversidade', 'Natural'],
+          link: '/esg-advisory/biodiversidade'
         },
         {
           title: 'Cadeia de Valor',
           image: '/sigra/Cadeia de Valor.png',
           description: 'Gestão ESG na cadeia de fornecedores.',
-          tags: ['Fornecedores', 'Supply Chain']
+          tags: ['Fornecedores', 'Supply Chain'],
+          link: '/esg-advisory/cadeia-de-valor'
         },
         
       ]
