@@ -37,7 +37,7 @@
         sustainabilityCards: [
           {
             title: 'Escopo do Projeto',
-            image: '/sigra/Escopodoprojeto.jpg',
+            image: '/sigra/Escopodoprojecto2.png',
             description: 'Definição e gerenciamento do escopo do projeto para garantir alinhamento com objetivos sustentáveis.',
             tags: ['Planejamento', 'Gestão', 'Escopo'],
             link: '/project-scope'
