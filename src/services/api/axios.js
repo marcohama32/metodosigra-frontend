@@ -3,7 +3,7 @@ import router from '@/router';
 import AuthService from '@/services/auth.service';
 
 const api = axios.create({
-    baseURL: import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000/api',
+    baseURL: import.meta.env.VITE_API_BASE_URL || 'https://metodosigra-backend.onrender.com/api',
     headers: {
         'Content-Type': 'application/json',
         'Accept': 'application/json'

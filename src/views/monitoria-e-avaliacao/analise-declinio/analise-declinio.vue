@@ -185,7 +185,7 @@
   <script>
   import axios from "axios";
   import Chart from "chart.js/auto";
-  import api from '@/services/api';
+  import api from '@/services/api/axios';
   import Swal from 'sweetalert2';
   import * as ExcelJS from 'exceljs';
   // Importe o adaptador de data

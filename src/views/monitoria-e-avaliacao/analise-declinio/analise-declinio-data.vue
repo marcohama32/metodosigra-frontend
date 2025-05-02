@@ -112,7 +112,7 @@
 </template>
 
 <script>
-import api from '@/services/api';
+import api from '@/services/api/axios';
 import Pagination from "@/components/Pagination.vue";
 import axios from "axios";
 
