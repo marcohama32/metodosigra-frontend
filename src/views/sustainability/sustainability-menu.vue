@@ -54,6 +54,28 @@
                       <option value="phone">Telefone</option>
                     </select>
                   </div>
+                  <div class="col-md-12" v-if="grievanceForm.channel === 'email'">
+                    <label class="form-label">Endereço de E-mail</label>
+                    <input 
+                      type="email" 
+                      v-model="grievanceForm.emailAddress" 
+                      class="form-control"
+                      placeholder="seu.email@exemplo.com"
+                      required
+                    >
+                  </div>
+                  <div class="col-md-12" v-if="grievanceForm.channel === 'phone'">
+                    <label class="form-label">Número de Telefone</label>
+                    <input 
+                      type="tel" 
+                      v-model="grievanceForm.phoneNumber" 
+                      class="form-control"
+                      placeholder="+258 XX XXX XXXX"
+                      pattern="[0-9+\s-]*"
+                      required
+                    >
+                    <small class="text-muted">Formato: +258 XX XXX XXXX</small>
+                  </div>
                 </div>
               </div>
 
@@ -134,6 +156,8 @@ export default {
       grievanceForm: {
         name: '',
         channel: '',
+        emailAddress: '',
+        phoneNumber: '',
         category: '',
         description: '',
         urgency: '',
@@ -212,12 +236,13 @@ export default {
     },
     submitGrievanceForm() {
       console.log('Grievance form submitted:', this.grievanceForm);
-      // Aqui você pode adicionar a lógica para salvar os dados
       this.closeModal();
       // Resetar o formulário
       this.grievanceForm = {
         name: '',
         channel: '',
+        emailAddress: '',
+        phoneNumber: '',
         category: '',
         description: '',
         urgency: '',
@@ -339,5 +364,15 @@ export default {
   display: flex;
   justify-content: flex-end;
   gap: 0.5rem;
+}
+
+.col-md-12 {
+  transition: all 0.3s ease;
+}
+
+.text-muted {
+  font-size: 0.875rem;
+  color: #6c757d;
+  margin-top: 0.25rem;
 }
 </style>

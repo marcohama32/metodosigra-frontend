@@ -46,7 +46,7 @@
               id="iconNavbarSidenav"
               href="#"
               class="p-0 nav-link text-body"
-              @click="toggleSidebar"
+              @click.prevent="toggleSidebar"
             >
               <div class="sidenav-toggler-inner">
                 <i class="sidenav-toggler-line"></i>
