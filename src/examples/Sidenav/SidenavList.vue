@@ -71,6 +71,14 @@
         </sidenav-collapse>
       </router-link>
 
+      <router-link to="/financial-protocol" class="nav-item">
+        <sidenav-collapse nav-text="Financial Protocol" :to="{ name: 'FinancialProtocol' }">
+          <template #icon>
+            <icon name="sign-up" />
+          </template>
+        </sidenav-collapse>
+      </router-link>
+
       <router-link to="/usuarios" class="nav-item">
         <sidenav-collapse nav-text="Usuários" :to="{ name: 'Usuários' }">
           <template #icon>
@@ -160,3 +168,17 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+/* ... outros estilos permanecem iguais ... */
+
+.badge {
+    font-size: 0.8rem;
+    padding: 0.5em 1em;
+    border-radius: 15px;
+}
+
+.badge.bg-success {
+    background-color: #42b983 !important;
+}
+</style>

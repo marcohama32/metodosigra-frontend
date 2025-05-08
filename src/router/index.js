@@ -54,6 +54,7 @@ import AnalisisDeclinio from "@/views/monitoria-e-avaliacao/analise-declinio/ana
 import AnalisisDeclinioData from "@/views/monitoria-e-avaliacao/analise-declinio/analise-declinio-data.vue";
 import AnalisisDeclinioUpload from "@/views/monitoria-e-avaliacao/analise-declinio/analise-declinio-upload.vue";
 import SustainabilityMenu from "@/views/sustainability/sustainability-menu.vue";
+import FinancialProtocol from "@/views/financial-protocol/financial-protocol.vue";
 
 // Rotas públicas
 const publicRoutes = [
@@ -209,6 +210,12 @@ const protectedRoutes = [
     name: "Sustainability",
     component: SustainabilityMenu,
     meta: { requiresAuth: true, title: 'Sustainability' }
+  },
+  {
+    path: "/financial-protocol",
+    name: "FinancialProtocol",
+    component: FinancialProtocol,
+    meta: { requiresAuth: true, title: 'FinancialProtocol' }
   },
 ].map(route => ({
   ...route,
