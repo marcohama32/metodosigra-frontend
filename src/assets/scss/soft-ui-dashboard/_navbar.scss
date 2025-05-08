@@ -70,6 +70,7 @@
       position: relative;
       display: block;
       height: $sidenav-toggler-line-height;
+      opacity: 1;
       &:not(:last-child){
         margin-bottom: $sidenav-toggler-line-margin-bottom;
       }
@@ -218,6 +219,18 @@
           left: 0;
           right: auto;
         }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(xl) {
+  .nav-item {
+    &.d-xl-none {
+      display: block !important;
+      .sidenav-toggler-inner {
+        opacity: 1;
+        visibility: visible;
       }
     }
   }

@@ -42,7 +42,7 @@
             </router-link>
           </li>
           <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
-            <!-- <a
+            <a
               id="iconNavbarSidenav"
               href="#"
               class="p-0 nav-link text-body"
@@ -53,7 +53,7 @@
                 <i class="sidenav-toggler-line"></i>
                 <i class="sidenav-toggler-line"></i>
               </div>
-            </a> -->
+            </a>
           </li>
           <li class="px-3 nav-item d-flex align-items-center">
             <!-- <a
